@@ -1,5 +1,6 @@
-// Loads the default system font info.
-function scp_DefaultDataLoader_LoadSysFont()
+// Script assets have changed for v2.3.0 see
+// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+function load_default_fonts()
 {
 	if (font_add_get_enable_aa())
 	{
@@ -17,12 +18,7 @@ function scp_DefaultDataLoader_LoadSysFont()
 		scp_GameLoggerInsertLog("FATAL ERROR: DEC.ttf font file is needed for the engine to run.");
 		game_end();
 	}
-}
-
-
-// Loads the default main font info.
-function scp_DefaultDataLoader_LoadMainFont()
-{
+	
 	var F_MAP_STRING = " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~";
 	
 	if (font_add_get_enable_aa())
@@ -33,12 +29,4 @@ function scp_DefaultDataLoader_LoadMainFont()
 	defMainFont = [font_add_sprite_ext(spr_defMainFont, F_MAP_STRING, true, 0), 1, 1, c_white];
 	defMainFontOR = defMainFont;
 	scp_GameLoggerInsertLog("spr_defMainFont successfully added as default main font.\nFont map string: " + F_MAP_STRING + "\nProp font: True\nFont spacing: 0\nFont X scale: 1\nFont Y scale: 1\nFont colour: White");
-}
-
-
-// Loads the default game info.
-function scp_DefaultDataLoader_LoadInfo()
-{
-	modInfo = ["FNF X Engine", "A", "Another tool to make FNF mods I guess."];
-	scp_GameLoggerInsertLog("Default mod info loaded successfully.\nMod name: " + modInfo[0] + "\nMod version: " + modInfo[1] + "\nMod Description: " + modInfo[2]);
 }

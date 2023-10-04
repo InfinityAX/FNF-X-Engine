@@ -1,4 +1,9 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"s_FontLoader","order":4,"path":"scripts/s_FontLoader/s_FontLoader.yy",},
+    {"name":"s_WindowControl","order":3,"path":"scripts/s_WindowControl/s_WindowControl.yy",},
+    {"name":"rm_FlashingState","order":1,"path":"rooms/rm_FlashingState/rm_FlashingState.yy",},
+    {"name":"s_GameLogger","order":5,"path":"scripts/s_GameLogger/s_GameLogger.yy",},
+  ],
 }
