@@ -1,0 +1,1 @@
+window_set_caption(modInfo[0] + " - Ver:" + modInfo[1] + " - FPS:" + string(fps));
