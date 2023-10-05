@@ -1,4 +1,0 @@
-Display Custom Mod and Creator Names = '0'
-Creator 1 = 'Dr. AX'
-Creator 2 = 'Puro6328'
-Creator 3 = 'Dr. AV'

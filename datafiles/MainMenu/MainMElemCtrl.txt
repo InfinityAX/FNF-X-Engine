@@ -1,4 +1,0 @@
-Background = ''
-Selection Cursor = ''
-Text Select Colour = ''
-Storymode Custom 

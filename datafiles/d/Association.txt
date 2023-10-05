@@ -1,4 +1,0 @@
-Display Custom Associated = '0'
-Is Associated With = '0'
-Associated or Not With = ''
-Associated Image = ''
