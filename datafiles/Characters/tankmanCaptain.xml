@@ -1,0 +1,21 @@
+<TextureAtlas imagePath="tankmanCaptain.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="off0000" x="0" y="0" width="900" height="900"/>
+	<SubTexture name="idle0000" x="900" y="0" width="900" height="900"/>
+	<SubTexture name="left0000" x="3600" y="900" width="900" height="900"/>
+	<SubTexture name="left0001" x="4500" y="900" width="900" height="900"/>
+	<SubTexture name="left0002" x="0" y="1800" width="900" height="900"/>
+	<SubTexture name="left0003" x="900" y="1800" width="900" height="900"/>
+	<SubTexture name="down0000" x="1800" y="0" width="900" height="900"/>
+	<SubTexture name="down0001" x="2700" y="0" width="900" height="900"/>
+	<SubTexture name="down0002" x="3600" y="0" width="900" height="900"/>
+	<SubTexture name="right0000" x="4500" y="0" width="900" height="900"/>
+	<SubTexture name="right0001" x="0" y="900" width="900" height="900"/>
+	<SubTexture name="right0002" x="900" y="900" width="900" height="900"/>
+	<SubTexture name="right0003" x="1800" y="900" width="900" height="900"/>
+	<SubTexture name="up0000" x="2700" y="900" width="900" height="900"/>
+	<SubTexture name="up0001" x="1800" y="1800" width="900" height="900"/>
+	<SubTexture name="up0002" x="2700" y="1800" width="900" height="900"/>
+	<SubTexture name="up0003" x="3600" y="1800" width="900" height="900"/>
+</TextureAtlas>

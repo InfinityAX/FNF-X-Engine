@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ben.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bendown0000" x="14" y="14" width="375" height="493"/>
+	<SubTexture name="bendown0001" x="14" y="14" width="375" height="493"/>
+	<SubTexture name="bendown0002" x="404" y="14" width="375" height="493"/>
+	<SubTexture name="bendown0003" x="404" y="14" width="375" height="493"/>
+	<SubTexture name="bendown0004" x="404" y="14" width="375" height="493"/>
+	<SubTexture name="bendown0005" x="404" y="14" width="375" height="493"/>
+	<SubTexture name="benidle0000" x="794" y="14" width="372" height="493"/>
+	<SubTexture name="benidle0001" x="794" y="14" width="372" height="493"/>
+	<SubTexture name="benidle0002" x="794" y="14" width="372" height="493"/>
+	<SubTexture name="benidle0003" x="794" y="14" width="372" height="493"/>
+	<SubTexture name="benidle0004" x="1181" y="14" width="372" height="493"/>
+	<SubTexture name="benidle0005" x="1181" y="14" width="372" height="493"/>
+	<SubTexture name="benidle0006" x="794" y="14" width="372" height="493"/>
+	<SubTexture name="benidle0007" x="794" y="14" width="372" height="493"/>
+	<SubTexture name="benidle0008" x="1181" y="14" width="372" height="493"/>
+	<SubTexture name="benidle0009" x="1181" y="14" width="372" height="493"/>
+	<SubTexture name="benidle0010" x="1181" y="14" width="372" height="493"/>
+	<SubTexture name="benidle0011" x="1181" y="14" width="372" height="493"/>
+	<SubTexture name="benidle0012" x="1181" y="14" width="372" height="493"/>
+	<SubTexture name="benidle0013" x="1181" y="14" width="372" height="493"/>
+	<SubTexture name="benidle0014" x="1181" y="14" width="372" height="493"/>
+	<SubTexture name="benidle0015" x="1181" y="14" width="372" height="493"/>
+	<SubTexture name="benidle0016" x="1181" y="14" width="372" height="493"/>
+	<SubTexture name="benidle0017" x="1181" y="14" width="372" height="493"/>
+	<SubTexture name="benidle0018" x="1181" y="14" width="372" height="493"/>
+	<SubTexture name="benidle0019" x="1181" y="14" width="372" height="493"/>
+	<SubTexture name="benidle0020" x="1181" y="14" width="372" height="493"/>
+	<SubTexture name="benidle0021" x="1181" y="14" width="372" height="493"/>
+	<SubTexture name="benidle0022" x="1181" y="14" width="372" height="493"/>
+	<SubTexture name="benidle0023" x="1181" y="14" width="372" height="493"/>
+	<SubTexture name="benleft0000" x="1568" y="14" width="372" height="493"/>
+	<SubTexture name="benleft0001" x="1568" y="14" width="372" height="493"/>
+	<SubTexture name="benleft0002" x="14" y="522" width="372" height="493"/>
+	<SubTexture name="benleft0003" x="14" y="522" width="372" height="493"/>
+	<SubTexture name="benleft0004" x="14" y="522" width="372" height="493"/>
+	<SubTexture name="benleft0005" x="14" y="522" width="372" height="493"/>
+	<SubTexture name="benright0000" x="401" y="522" width="372" height="493"/>
+	<SubTexture name="benright0001" x="401" y="522" width="372" height="493"/>
+	<SubTexture name="benright0002" x="788" y="522" width="372" height="493"/>
+	<SubTexture name="benright0003" x="788" y="522" width="372" height="493"/>
+	<SubTexture name="benright0004" x="788" y="522" width="372" height="493"/>
+	<SubTexture name="benright0005" x="788" y="522" width="372" height="493"/>
+	<SubTexture name="benup0000" x="1175" y="522" width="372" height="493"/>
+	<SubTexture name="benup0001" x="1175" y="522" width="372" height="493"/>
+	<SubTexture name="benup0002" x="1562" y="522" width="372" height="493"/>
+	<SubTexture name="benup0003" x="1562" y="522" width="372" height="493"/>
+	<SubTexture name="benup0004" x="1562" y="522" width="372" height="493"/>
+	<SubTexture name="benup0005" x="1562" y="522" width="372" height="493"/>
+</TextureAtlas>

@@ -1,3 +1,3 @@
-Mod Name = "CHANGED (FNF CORRUPTION)"
-Mod Version = "1.0"
-Mod Description = "Friday Night Funkin' CHANGED Special Edition MOD"
+Mod Name = "FNF X Engine"
+Mod Version = "A"
+Mod Description = "An attempt to re-create FNF Psych Engine in GameMaker Studio 2 or something."

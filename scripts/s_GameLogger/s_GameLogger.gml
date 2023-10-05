@@ -25,4 +25,6 @@ function insert_log(_ltext)
 	file_text_write_string(_ofile, _datetimestr + " - " + _ltext);
 	file_text_writeln(_ofile);
 	file_text_close(_ofile);
+	
+	return;
 }

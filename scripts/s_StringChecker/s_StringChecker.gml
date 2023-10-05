@@ -1,4 +1,5 @@
 // Returns the string within the quotations.
+/*
 function scp_StringChecker_Grab(loadedString)
 {
 	if (!string_ends_with(loadedString, "\""))
@@ -30,11 +31,11 @@ function scp_StringChecker_Grab(loadedString)
 	}
 	
 	return returnString;
-}
+}*/
 
 
 // Converts string to boolean.
-function scp_StringChecker_BooleanConvert(loadedString)
+/*function scp_StringChecker_BooleanConvert(loadedString)
 {
 	if (loadedString == "1" or string_lower(loadedString) == "true")
 	{
@@ -49,11 +50,11 @@ function scp_StringChecker_BooleanConvert(loadedString)
 		scp_GameLoggerInsertLog("ERROR: >>>" + loadedString + "<<< is not boolean 0 (false) or 1 (true). Assuming false...");
 		return false;
 	}
-}
+}*/
 
 
 // Converts string to colour value.
-function scp_StringChecker_ColourConvert(loadedString)
+/*function scp_StringChecker_ColourConvert(loadedString)
 {
 	if (string_lower(loadedString) == "aqua")
 	{
@@ -148,11 +149,11 @@ function scp_StringChecker_ColourConvert(loadedString)
 		scp_GameLoggerInsertLog("ERROR: >>>" + loadedString + "<<< is not regonised colour. Regonised colours are:\naqua, black, blue, dark gray, dark grey, gray, green, grey, light gray, light grey, lime, maroon, navy, olive, orange, pink, purple, red, silver, teal, white, yellow\nAssuming white...");
 		return c_white;
 	}
-}
+}*/
 
 
 // Converts string to real.
-function scp_StringChecker_RealConvert(loadedString, isInt64, isSigned, allowNegative, upperLimit, lowerLimit)
+/*function scp_StringChecker_RealConvert(loadedString, isInt64, isSigned, allowNegative, upperLimit, lowerLimit)
 {
 	var returnNum = "";
 	var hasDecimal = false;
@@ -201,15 +202,15 @@ function scp_StringChecker_RealConvert(loadedString, isInt64, isSigned, allowNeg
 		
 		return real(returnNum);
 	}
-}
+}*/
 
 
 // Converts string to unsigned int.
-function scp_StringChecker_UnsignIntConvert(loadedString, isSigned, allowNegative)
+/*function scp_StringChecker_UnsignIntConvert(loadedString, isSigned, allowNegative)
 {
 	//int64(loadedString);
 	scp_GameLoggerInsertLog(string(int64(loadedString)));
-	/**var returnNum = "";
+	var returnNum = "";
 	
 	for (var i = 1; i <= string_length(loadedString); i++)
 	{
@@ -246,5 +247,5 @@ function scp_StringChecker_UnsignIntConvert(loadedString, isSigned, allowNegativ
 	{
 		int
 		return real(returnNum);
-	}**/
-}
+	}
+}*/

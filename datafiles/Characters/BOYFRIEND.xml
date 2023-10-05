@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="speed.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="speeddown0000" x="14" y="14" width="246" height="384" frameX="0" frameY="-10" frameWidth="252" frameHeight="394"/>
+	<SubTexture name="speeddown0001" x="275" y="14" width="246" height="394" frameX="-6" frameY="0" frameWidth="252" frameHeight="394"/>
+	<SubTexture name="speedidle0000" x="536" y="14" width="258" height="417" frameX="-3" frameY="0" frameWidth="261" frameHeight="417"/>
+	<SubTexture name="speedidle0001" x="536" y="14" width="258" height="417" frameX="-3" frameY="0" frameWidth="261" frameHeight="417"/>
+	<SubTexture name="speedidle0002" x="809" y="14" width="254" height="406" frameX="0" frameY="-11" frameWidth="261" frameHeight="417"/>
+	<SubTexture name="speedidle0003" x="809" y="14" width="254" height="406" frameX="0" frameY="-11" frameWidth="261" frameHeight="417"/>
+	<SubTexture name="speedidle0004" x="1078" y="14" width="250" height="407" frameX="-1" frameY="-10" frameWidth="261" frameHeight="417"/>
+	<SubTexture name="speedidle0005" x="1078" y="14" width="250" height="407" frameX="-1" frameY="-10" frameWidth="261" frameHeight="417"/>
+	<SubTexture name="speedidle0006" x="1343" y="14" width="255" height="411" frameX="-1" frameY="-6" frameWidth="261" frameHeight="417"/>
+	<SubTexture name="speedidle0007" x="1343" y="14" width="255" height="411" frameX="-1" frameY="-6" frameWidth="261" frameHeight="417"/>
+	<SubTexture name="speedidle0008" x="1613" y="14" width="256" height="415" frameX="-1" frameY="-2" frameWidth="261" frameHeight="417"/>
+	<SubTexture name="speedidle0009" x="1613" y="14" width="256" height="415" frameX="-1" frameY="-2" frameWidth="261" frameHeight="417"/>
+	<SubTexture name="speedidle0010" x="14" y="446" width="258" height="416" frameX="-2" frameY="-1" frameWidth="261" frameHeight="417"/>
+	<SubTexture name="speedidle0011" x="14" y="446" width="258" height="416" frameX="-2" frameY="-1" frameWidth="261" frameHeight="417"/>
+	<SubTexture name="speedidle0012" x="536" y="14" width="258" height="417" frameX="-3" frameY="0" frameWidth="261" frameHeight="417"/>
+	<SubTexture name="speedidle0013" x="536" y="14" width="258" height="417" frameX="-3" frameY="0" frameWidth="261" frameHeight="417"/>
+	<SubTexture name="speedidle0014" x="536" y="14" width="258" height="417" frameX="-3" frameY="0" frameWidth="261" frameHeight="417"/>
+	<SubTexture name="speedidle0015" x="536" y="14" width="258" height="417" frameX="-3" frameY="0" frameWidth="261" frameHeight="417"/>
+	<SubTexture name="speedidle0016" x="536" y="14" width="258" height="417" frameX="-3" frameY="0" frameWidth="261" frameHeight="417"/>
+	<SubTexture name="speedidle0017" x="536" y="14" width="258" height="417" frameX="-3" frameY="0" frameWidth="261" frameHeight="417"/>
+	<SubTexture name="speedidle0018" x="536" y="14" width="258" height="417" frameX="-3" frameY="0" frameWidth="261" frameHeight="417"/>
+	<SubTexture name="speedidle0019" x="536" y="14" width="258" height="417" frameX="-3" frameY="0" frameWidth="261" frameHeight="417"/>
+	<SubTexture name="speedidle0020" x="536" y="14" width="258" height="417" frameX="-3" frameY="0" frameWidth="261" frameHeight="417"/>
+	<SubTexture name="speedidle0021" x="536" y="14" width="258" height="417" frameX="-3" frameY="0" frameWidth="261" frameHeight="417"/>
+	<SubTexture name="speedidle0022" x="536" y="14" width="258" height="417" frameX="-3" frameY="0" frameWidth="261" frameHeight="417"/>
+	<SubTexture name="speedidle0023" x="536" y="14" width="258" height="417" frameX="-3" frameY="0" frameWidth="261" frameHeight="417"/>
+	<SubTexture name="speedleft0000" x="287" y="446" width="262" height="416" frameX="0" frameY="-4" frameWidth="270" frameHeight="420"/>
+	<SubTexture name="speedleft0001" x="564" y="446" width="255" height="419" frameX="-15" frameY="0" frameWidth="270" frameHeight="420"/>
+	<SubTexture name="speedmissdown0000" x="834" y="446" width="520" height="398"/>
+	<SubTexture name="speedmissdown0001" x="834" y="446" width="520" height="398"/>
+	<SubTexture name="speedmissdown0002" x="834" y="446" width="520" height="398"/>
+	<SubTexture name="speedmissdown0003" x="834" y="446" width="520" height="398"/>
+	<SubTexture name="speedmissdown0004" x="834" y="446" width="520" height="398"/>
+	<SubTexture name="speedmissdown0005" x="834" y="446" width="520" height="398"/>
+	<SubTexture name="speedmissdown0006" x="834" y="446" width="520" height="398"/>
+	<SubTexture name="speedmissdown0007" x="834" y="446" width="520" height="398"/>
+	<SubTexture name="speedmissdown0008" x="834" y="446" width="520" height="398"/>
+	<SubTexture name="speedmissdown0009" x="834" y="446" width="520" height="398"/>
+	<SubTexture name="speedmissdown0010" x="834" y="446" width="520" height="398"/>
+	<SubTexture name="speedmissdown0011" x="834" y="446" width="520" height="398"/>
+	<SubTexture name="speedmissdown0012" x="834" y="446" width="520" height="398"/>
+	<SubTexture name="speedmissdown0013" x="834" y="446" width="520" height="398"/>
+	<SubTexture name="speedmissdown0014" x="834" y="446" width="520" height="398"/>
+	<SubTexture name="speedmissdown0015" x="834" y="446" width="520" height="398"/>
+	<SubTexture name="speedmissdown0016" x="834" y="446" width="520" height="398"/>
+	<SubTexture name="speedmissdown0017" x="834" y="446" width="520" height="398"/>
+	<SubTexture name="speedmissdown0018" x="834" y="446" width="520" height="398"/>
+	<SubTexture name="speedmissdown0019" x="834" y="446" width="520" height="398"/>
+	<SubTexture name="speedmissdown0020" x="834" y="446" width="520" height="398"/>
+	<SubTexture name="speedmissdown0021" x="834" y="446" width="520" height="398"/>
+	<SubTexture name="speedmissdown0022" x="834" y="446" width="520" height="398"/>
+	<SubTexture name="speedmissdown0023" x="834" y="446" width="520" height="398"/>
+	<SubTexture name="speedmissleft0000" x="1369" y="446" width="526" height="391"/>
+	<SubTexture name="speedmissleft0001" x="1369" y="446" width="526" height="391"/>
+	<SubTexture name="speedmissleft0002" x="1369" y="446" width="526" height="391"/>
+	<SubTexture name="speedmissleft0003" x="1369" y="446" width="526" height="391"/>
+	<SubTexture name="speedmissleft0004" x="1369" y="446" width="526" height="391"/>
+	<SubTexture name="speedmissleft0005" x="1369" y="446" width="526" height="391"/>
+	<SubTexture name="speedmissleft0006" x="1369" y="446" width="526" height="391"/>
+	<SubTexture name="speedmissleft0007" x="1369" y="446" width="526" height="391"/>
+	<SubTexture name="speedmissleft0008" x="1369" y="446" width="526" height="391"/>
+	<SubTexture name="speedmissleft0009" x="1369" y="446" width="526" height="391"/>
+	<SubTexture name="speedmissleft0010" x="1369" y="446" width="526" height="391"/>
+	<SubTexture name="speedmissleft0011" x="1369" y="446" width="526" height="391"/>
+	<SubTexture name="speedmissleft0012" x="1369" y="446" width="526" height="391"/>
+	<SubTexture name="speedmissleft0013" x="1369" y="446" width="526" height="391"/>
+	<SubTexture name="speedmissleft0014" x="1369" y="446" width="526" height="391"/>
+	<SubTexture name="speedmissleft0015" x="1369" y="446" width="526" height="391"/>
+	<SubTexture name="speedmissleft0016" x="1369" y="446" width="526" height="391"/>
+	<SubTexture name="speedmissleft0017" x="1369" y="446" width="526" height="391"/>
+	<SubTexture name="speedmissleft0018" x="1369" y="446" width="526" height="391"/>
+	<SubTexture name="speedmissleft0019" x="1369" y="446" width="526" height="391"/>
+	<SubTexture name="speedmissleft0020" x="1369" y="446" width="526" height="391"/>
+	<SubTexture name="speedmissleft0021" x="1369" y="446" width="526" height="391"/>
+	<SubTexture name="speedmissleft0022" x="1369" y="446" width="526" height="391"/>
+	<SubTexture name="speedmissleft0023" x="1369" y="446" width="526" height="391"/>
+	<SubTexture name="speedmissright0000" x="14" y="880" width="500" height="392"/>
+	<SubTexture name="speedmissright0001" x="14" y="880" width="500" height="392"/>
+	<SubTexture name="speedmissright0002" x="14" y="880" width="500" height="392"/>
+	<SubTexture name="speedmissright0003" x="14" y="880" width="500" height="392"/>
+	<SubTexture name="speedmissright0004" x="14" y="880" width="500" height="392"/>
+	<SubTexture name="speedmissright0005" x="14" y="880" width="500" height="392"/>
+	<SubTexture name="speedmissright0006" x="14" y="880" width="500" height="392"/>
+	<SubTexture name="speedmissright0007" x="14" y="880" width="500" height="392"/>
+	<SubTexture name="speedmissright0008" x="14" y="880" width="500" height="392"/>
+	<SubTexture name="speedmissright0009" x="14" y="880" width="500" height="392"/>
+	<SubTexture name="speedmissright0010" x="14" y="880" width="500" height="392"/>
+	<SubTexture name="speedmissright0011" x="14" y="880" width="500" height="392"/>
+	<SubTexture name="speedmissright0012" x="14" y="880" width="500" height="392"/>
+	<SubTexture name="speedmissright0013" x="14" y="880" width="500" height="392"/>
+	<SubTexture name="speedmissright0014" x="14" y="880" width="500" height="392"/>
+	<SubTexture name="speedmissright0015" x="14" y="880" width="500" height="392"/>
+	<SubTexture name="speedmissright0016" x="14" y="880" width="500" height="392"/>
+	<SubTexture name="speedmissright0017" x="14" y="880" width="500" height="392"/>
+	<SubTexture name="speedmissright0018" x="14" y="880" width="500" height="392"/>
+	<SubTexture name="speedmissright0019" x="14" y="880" width="500" height="392"/>
+	<SubTexture name="speedmissright0020" x="14" y="880" width="500" height="392"/>
+	<SubTexture name="speedmissright0021" x="14" y="880" width="500" height="392"/>
+	<SubTexture name="speedmissright0022" x="14" y="880" width="500" height="392"/>
+	<SubTexture name="speedmissright0023" x="14" y="880" width="500" height="392"/>
+	<SubTexture name="speedmissup0000" x="529" y="880" width="533" height="392"/>
+	<SubTexture name="speedmissup0001" x="529" y="880" width="533" height="392"/>
+	<SubTexture name="speedmissup0002" x="529" y="880" width="533" height="392"/>
+	<SubTexture name="speedmissup0003" x="529" y="880" width="533" height="392"/>
+	<SubTexture name="speedmissup0004" x="529" y="880" width="533" height="392"/>
+	<SubTexture name="speedmissup0005" x="529" y="880" width="533" height="392"/>
+	<SubTexture name="speedmissup0006" x="529" y="880" width="533" height="392"/>
+	<SubTexture name="speedmissup0007" x="529" y="880" width="533" height="392"/>
+	<SubTexture name="speedmissup0008" x="529" y="880" width="533" height="392"/>
+	<SubTexture name="speedmissup0009" x="529" y="880" width="533" height="392"/>
+	<SubTexture name="speedmissup0010" x="529" y="880" width="533" height="392"/>
+	<SubTexture name="speedmissup0011" x="529" y="880" width="533" height="392"/>
+	<SubTexture name="speedmissup0012" x="529" y="880" width="533" height="392"/>
+	<SubTexture name="speedmissup0013" x="529" y="880" width="533" height="392"/>
+	<SubTexture name="speedmissup0014" x="529" y="880" width="533" height="392"/>
+	<SubTexture name="speedmissup0015" x="529" y="880" width="533" height="392"/>
+	<SubTexture name="speedmissup0016" x="529" y="880" width="533" height="392"/>
+	<SubTexture name="speedmissup0017" x="529" y="880" width="533" height="392"/>
+	<SubTexture name="speedmissup0018" x="529" y="880" width="533" height="392"/>
+	<SubTexture name="speedmissup0019" x="529" y="880" width="533" height="392"/>
+	<SubTexture name="speedmissup0020" x="529" y="880" width="533" height="392"/>
+	<SubTexture name="speedmissup0021" x="529" y="880" width="533" height="392"/>
+	<SubTexture name="speedmissup0022" x="529" y="880" width="533" height="392"/>
+	<SubTexture name="speedmissup0023" x="529" y="880" width="533" height="392"/>
+	<SubTexture name="speedright0000" x="1077" y="880" width="259" height="423" frameX="-12" frameY="-2" frameWidth="271" frameHeight="425"/>
+	<SubTexture name="speedright0001" x="1351" y="880" width="262" height="425" frameX="0" frameY="0" frameWidth="271" frameHeight="425"/>
+	<SubTexture name="speedup0000" x="1628" y="880" width="264" height="447" frameX="-3" frameY="0" frameWidth="267" frameHeight="447"/>
+	<SubTexture name="speedup0001" x="14" y="1342" width="260" height="436" frameX="0" frameY="-10" frameWidth="267" frameHeight="447"/>
+</TextureAtlas>
