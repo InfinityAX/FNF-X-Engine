@@ -1,0 +1,3 @@
+Mod Name = "CHANGED (FNF CORRUPTION)"
+Mod Version = "1.0"
+Mod Description = "Friday Night Funkin' CHANGED Special Edition MOD"
