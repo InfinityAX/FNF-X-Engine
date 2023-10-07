@@ -7,7 +7,9 @@ function load_default_fonts()
 {
 	default_ft_map_str = " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~";
 	
-	if (font_add_get_enable_aa())
+	default_system_font = fnt_default_system_font;
+	
+	/*if (font_add_get_enable_aa())
 	{
 		font_add_enable_aa(false);
 	}
@@ -21,7 +23,7 @@ function load_default_fonts()
 	{
 		insert_log("FATAL ERROR: DEC.ttf font file is needed for the engine to run.");
 		game_end();
-	}
+	}*/
 	
 	if (!font_add_get_enable_aa())
 	{

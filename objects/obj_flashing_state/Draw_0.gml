@@ -1,0 +1,1 @@
+draw_text_ext_transformed(640, 380, "Hey, watch out!\nThis Mod contains some flashing lights!\nPress ENTER to disable them now or go to Options Menu.\nPress ESCAPE to ignore this message.\nYou've been warned!", 80, 1280, 1, 1, 0);
