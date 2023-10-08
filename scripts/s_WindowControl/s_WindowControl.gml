@@ -1,6 +1,7 @@
 globalvar _minfo;
 
 // Loads the default game info.
+/*
 function load_window_title()
 {
 	_minfo = ["FNF X Engine", "B", "Another tool to make FNF mods I guess."];
@@ -8,17 +9,20 @@ function load_window_title()
 	
 	return;
 
-}
+}*/
 
 
+// Set the default game window parameters
 function auto_window_control()
 {
+	insert_log("Automatically adjusting game window...");
+	
 	var _dwidth = display_get_width();
 	var _dheight = display_get_height();
-	var _xpos = (_dwidth / 2);
-	var _ypos = (_dheight / 2);
 	var _windowheight;
 	var _windowwidth;
+	
+	insert_log("Detected display size: " + string(_dwidth) + "*" + string(_dheight) + "...");
 	
 	if (_dwidth > 3840 and _dheight > 2160)
 	{
@@ -46,23 +50,33 @@ function auto_window_control()
 		_windowwidth = 1280;
 	}
 	
-	window_set_rectangle(_xpos-(_windowwidth/2), _ypos-(_windowheight/2), _windowwidth, _windowheight);
-	insert_log("Game window set to " + string(_windowwidth) + "*" + string(_windowheight) + ".");
+	var _xpos = (_dwidth / 2) - (_windowwidth/2);
+	var _ypos = (_dheight / 2) - (_windowheight/2);
+	
+	manual_window_resizw(_windowwidth, _windowheight, _xpos, _ypos);
+	change_gamespeed_fps(60);
+	
+	insert_log("Auto game window adjustments complete.");
 	
 	return;
 }
 
 
+// Toggles the fullscreen
 function full_screen_toggle()
 {
+	insert_log("Toggling fullscreen...");
+	
 	if (!window_get_fullscreen())
 	{
 		window_set_fullscreen(true);
+		
 		insert_log("Fullscreen Enabled");
 	}
 	else
 	{
 		window_set_fullscreen(false);
+		
 		insert_log("Fullscreen Disabled");
 	}
 	
@@ -70,76 +84,86 @@ function full_screen_toggle()
 }
 
 
+// Changes the game speed in FPS
 function change_gamespeed_fps(_fps_val)
 {
+	insert_log("Setting game speed in FPS...");
+	
 	game_set_speed(_fps_val, gamespeed_fps);
+	
 	insert_log("Gamespeed set to " + string(_fps_val) + "FPS.");
+	
 	return;
 }
 
 
-/*
-function manual_window_resizw(_wwidth, _wheight)
+// Resizes the game window size and position
+function manual_window_resizw(_wwidth, _wheight, _xpos, _ypos)
 {
 	var _dwidth = display_get_width();
 	var _dheight = display_get_height();
-	var _xpos = (_dwidth / 2);
-	var _ypos = (_dheight / 2);
+	
+	insert_log("Resizing game window...");
 	
 	if (_wwidth < 0)
 	{
+		insert_log("WINDOW WIDTH CAN'T BE LESS THAN 0. Setting value to 0...");
+		
 		_wwidth = 0;
 	}
 	
 	if (_wwidth > _dwidth)
 	{
+		insert_log("WINDOW WIDTH CAN'T BE LARGER THAN THE DISPLAY WIDTH. Setting value to " + string(_dwidth) +"...");
+		
 		_wwidth = _dwidth;
 	}
 	
 	if (_wheight < 0)
 	{
+		insert_log("WINDOW HEIGHT CAN'T BE LESS THAN 0. Setting value to 0...");
+		
 		_wheight = 0;
 	}
 	
 	if (_wheight > _dheight)
 	{
+		insert_log("WINDOW HEIGHT CAN'T BE LARGER THAN THE DISPLAY HEIGHT. Setting value to " + string(_dheight) +"...");
+		
 		_wheight = _dheight;
 	}
 	
-	window_set_rectangle(_xpos-(_wwidth/2), _ypos-(_wheight/2), _wwidth, _wheight);
-	
-	return;
-}
-
-
-function manual_window_reposition(_xpos, _ypos)
-{
-	var _dwidth = display_get_width();
-	var _dheight = display_get_height();
-	var _wwidth = window_get_width();
-	var _wheight = window_get_height();
-	
 	if (_xpos < 0)
 	{
-		-_xpos = 0;
+		insert_log("WINDOW X POSITION CAN'T BE LESS THAN 0. Setting value to 0...");
+		
+		_xpos = 0;
 	}
 	
 	if (_xpos > (_dwidth - _wwidth))
 	{
 		_xpos = _dwidth - _wwidth;
+		
+		insert_log("WINDOW X POSITION CAN'T BE LARGER THAN THE DISPLAY WIDTH MINUS WINDOW WIDTH. Setting value to " + string(_xpos) +"...");
 	}
 	
 	if (_ypos < 0)
 	{
+		insert_log("WINDOW Y POSITION CAN'T BE LESS THAN 0. Setting value to 0...");
+		
 		_ypos = 0;
 	}
 	
 	if (_ypos > (_dheight - _wheight))
 	{
 		_ypos = _dheight - _wheight;
+		
+		insert_log("WINDOW Y POSITION CAN'T BE LARGER THAN THE DISPLAY HEIGHT MINUS WINDOW HEIGHT. Setting value to " + string(_ypos) +"...");
 	}
 	
-	window_set_rectangle(_xpos-(_wwidth/2), _ypos-(_wheight/2), _wwidth, _wheight);
+	window_set_rectangle(_xpos, _ypos, _wwidth, _wheight);
+	
+	insert_log("Window size set to " + string(_wwidth) + "*" + string(_wheight) + " and positioned at (" + string(_xpos) + ", " + string(_ypos) + ") from top left corner.");
 	
 	return;
-}*/
+}
