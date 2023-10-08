@@ -31,7 +31,7 @@ function load_options()
 			else
 			{
 				graphics_quality = ini_read_real("GRAPHICS", "QUALITY", 0);
-				graphics_quality = ini_read_real("GRAPHICS", "FLASHING", -1);
+				flashing_lights = ini_read_real("GRAPHICS", "FLASHING", -1);
 				
 				insert_log("Options loading success.");
 			}
@@ -60,6 +60,18 @@ function set_default_options()
 	flashing_lights = -1;
 	
 	insert_log("Defailt options loaded.");
+	
+	return;
+}
+
+
+// Set the flashing option based on the value recived in rm_flashing_state
+function set_flashing(_val)
+{
+	flashing_lights = _val;
+	ini_open("gameOPTIONS");
+	ini_write_real("GRAPHICS", "FLASHING", _val);
+	ini_close();
 	
 	return;
 }

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "sfx_DefaultMenuCancel",
+  "name": "snd_sfx_default_menu_cancel",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 48000,
-  "soundFile": "sfx_DefaultMenuCancel.ogg",
+  "soundFile": "snd_sfx_default_menu_cancel.ogg",
   "type": 0,
   "volume": 1.0,
 }

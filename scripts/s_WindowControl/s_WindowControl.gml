@@ -69,6 +69,15 @@ function full_screen_toggle()
 	return;
 }
 
+
+function change_gamespeed_fps(_fps_val)
+{
+	game_set_speed(_fps_val, gamespeed_fps);
+	insert_log("Gamespeed set to " + string(_fps_val) + "FPS.");
+	return;
+}
+
+
 /*
 function manual_window_resizw(_wwidth, _wheight)
 {

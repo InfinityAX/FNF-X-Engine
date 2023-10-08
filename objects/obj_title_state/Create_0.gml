@@ -9,6 +9,7 @@ if (!variable_global_exists("game_started"))
 	auto_window_control();
 	load_options();
 	load_default_fonts();
+	instance_create_depth(0, 0, 0, obj_fps_counter);
 }
 
 insert_log("Loading rm_title_state...");

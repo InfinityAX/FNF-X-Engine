@@ -1,13 +1,13 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "rm_TitleState",
+  "name": "rm_title_state",
   "creationCodeFile": "",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_7794BC60","path":"rooms/rm_TitleState/rm_TitleState.yy",},
+    {"name":"inst_7794BC60","path":"rooms/rm_title_state/rm_title_state.yy",},
   ],
   "isDnd": false,
   "layers": [
