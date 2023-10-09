@@ -1,12 +1,11 @@
 insert_log("Key escape press detected.");
 
-set_flashing(1);
-
-insert_log("Flashing set to on.");
+set_option_flashing(0);
 
 audio_play_sound(snd_sfx_default_menu_cancel, 0, false);
 
 insert_log("Playing sound \"snd_sfx_default_menu_cancel\"...");
-insert_log("Going to rm_title_state...");
 
-room_goto(rm_title_state);
+alarm_set(1, game_get_speed(gamespeed_fps));
+
+insert_log("Alarm 1 set to " + string(game_get_speed(gamespeed_fps)) + " game frames.");

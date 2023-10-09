@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "s_StringParcer",
+  "name": "s_GameState",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

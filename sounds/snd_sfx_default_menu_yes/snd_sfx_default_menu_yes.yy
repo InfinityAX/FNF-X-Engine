@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "sfx_DefaultMenuYes",
+  "name": "snd_sfx_default_menu_yes",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 48000,
-  "soundFile": "sfx_DefaultMenuYes.ogg",
+  "soundFile": "snd_sfx_default_menu_yes.ogg",
   "type": 0,
   "volume": 1.0,
 }

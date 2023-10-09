@@ -25,7 +25,7 @@ function load_default_font_file()
 	
 		if (!file_exists("DefaultFonts/" + _font_name))
 		{
-			insert_log(_font_name + " not found. Skipping importing from file and loading from internal defaults.");
+			insert_log(_font_name + " not found or is blank. Skipping importing from file and loading from internal defaults.");
 			load_default_fonts(1);
 		}
 		else
@@ -143,9 +143,9 @@ function load_default_font_file()
 		
 			_font_colour = string_parce_colour(_font_colour);
 		
-			default_system_font = [font_add(_font_name, _font_size, _font_bold, _font_italic, _font_fchar, _font_lchar), _font_x_scale, _font_y_scale, _font_colour];
+			default_system_font = [font_add(_font_name, _font_size, _font_bold, _font_italic, _font_fchar, _font_lchar), _font_x_scale, _font_y_scale, _font_colour[0]];
 		
-			insert_log("Font " + _font_name + " successfully added as default system font.\nFont size: " + string(_font_size) + "\nBolded font: " + string(_font_bold) + "\nItalic font: " + string(_font_italic) + "\nFirst font character: " + string(_font_fchar) + "\nLast font character: " + string(_font_lchar) + "\nFont x scale: " + string(_font_x_scale) + "\nFont y scale: " + string(_font_y_scale) + "\nFont colour: " + string(_font_colour) + "\nFont AA: " + string(_font_aa));
+			insert_log("Font " + _font_name + " successfully added as default system font.\nFont size: " + string(_font_size) + "\nBolded font: " + string(_font_bold) + "\nItalic font: " + string(_font_italic) + "\nFirst font character: " + string(_font_fchar) + "\nLast font character: " + string(_font_lchar) + "\nFont x scale: " + string(_font_x_scale) + "\nFont y scale: " + string(_font_y_scale) + "\nFont colour: " + _font_colour[1] + "\nFont AA: " + string(_font_aa));
 		}
 		
 		file_text_close(_ofile);

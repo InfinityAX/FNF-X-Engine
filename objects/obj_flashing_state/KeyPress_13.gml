@@ -1,9 +1,11 @@
 insert_log("Key enter press detected.");
 
-set_flashing(0);
+set_option_flashing(1);
 
-insert_log("Flashing set to off.");
+audio_play_sound(snd_sfx_default_menu_yes, 0, false);
 
-alarm[0] = gamespeed_fps;
+insert_log("Playing sound \"snd_sfx_default_menu_yes\"...");
 
-insert_log("Alarm 0 set to 10 game frames.");
+alarm_set(0, game_get_speed(gamespeed_fps));
+
+insert_log("Alarm 0 set to " + string(game_get_speed(gamespeed_fps)) + " game frames.");

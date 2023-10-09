@@ -7,4 +7,4 @@ DEC.ttf
 0
 1.85
 1.25
-White
+white

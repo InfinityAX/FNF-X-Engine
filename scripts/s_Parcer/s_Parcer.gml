@@ -56,7 +56,7 @@ function scp_StringChecker_Grab(loadedString)
 // Converts string to colour value.
 function string_parce_colour(_loaded_string)
 {
-	var _return_col = c_white;
+	var _return_col = [c_white, "white"];
 	
 	insert_log("Identifying colour from string...");
 	
@@ -64,87 +64,87 @@ function string_parce_colour(_loaded_string)
 	
 	if (_loaded_string == "aqua")
 	{
-		_return_col = c_aqua;
+		_return_col = [c_aqua, _loaded_string];
 	}
 	else if (_loaded_string == "black")
 	{
-		_return_col = c_black;
+		_return_col = [c_black, _loaded_string];
 	}
 	else if (_loaded_string == "blue")
 	{
-		_return_col = c_blue;
+		_return_col = [c_blue, _loaded_string];
 	}
 	else if (_loaded_string == "dark gray")
 	{
-		_return_col = c_dkgray;
+		_return_col = [c_dkgray, _loaded_string];
 	}
 	else if (_loaded_string == "dark grey")
 	{
-		_return_col = c_dkgrey;
+		_return_col = [c_dkgrey, _loaded_string];
 	}
 	else if (_loaded_string == "pink")
 	{
-		_return_col = c_fuchsia;
+		_return_col = [c_fuchsia, _loaded_string];
 	}
 	else if (_loaded_string == "gray")
 	{
-		_return_col = c_gray;
+		_return_col = [c_gray, _loaded_string];
 	}
 	else if (_loaded_string == "green")
 	{
-		_return_col = c_green;
+		_return_col = [c_green, _loaded_string];
 	}
 	else if (_loaded_string == "grey")
 	{
-		_return_col = c_grey;
+		_return_col = [c_grey, _loaded_string];
 	}
 	else if (_loaded_string == "lime")
 	{
-		_return_col = c_lime;
+		_return_col = [c_lime, _loaded_string];
 	}
 	else if (_loaded_string == "light gray")
 	{
-		_return_col = c_ltgray;
+		_return_col = [c_ltgray, _loaded_string];
 	}
 	else if (_loaded_string == "light grey")
 	{
-		_return_col = c_ltgrey;
+		_return_col = [c_ltgrey, _loaded_string];
 	}
 	else if (_loaded_string == "maroon")
 	{
-		_return_col = c_maroon;
+		_return_col = [c_maroon, _loaded_string];
 	}
 	else if (_loaded_string == "navy")
 	{
-		_return_col = c_navy;
+		_return_col = [c_navy, _loaded_string];
 	}
 	else if (_loaded_string == "olive")
 	{
-		_return_col = c_olive;
+		_return_col = [c_olive, _loaded_string];
 	}
 	else if (_loaded_string == "orange")
 	{
-		_return_col = c_orange;
+		_return_col = [c_orange, _loaded_string];
 	}
 	else if (_loaded_string == "purple")
 	{
-		_return_col = c_purple;
+		_return_col = [c_purple, _loaded_string];
 	}
 	else if (_loaded_string == "red")
 	{
-		_return_col = c_red;
+		_return_col = [c_red, _loaded_string];
 	}
 	else if (_loaded_string == "silver")
 	{
-		_return_col = c_silver;
+		_return_col = [c_silver, _loaded_string];
 	}
 	else if (_loaded_string == "teal")
 	{
-		_return_col = c_teal;
+		_return_col = [c_teal, _loaded_string];
 	}
 	else if (_loaded_string == "yellow")
 	{
-		_return_col = c_yellow;
+		_return_col = [c_yellow, _loaded_string];
 	}
 	else if (_loaded_string == "white")
 	{
@@ -152,7 +152,7 @@ function string_parce_colour(_loaded_string)
 	}
 	else
 	{
-		insert_log(_loaded_string + " IS NOT A RECOGNIZED COLOUR. Defaulting to white...");
+		insert_log(_loaded_string + " IS NOT A RECOGNIZED COLOUR OR IS BLANK. Defaulting to white...");
 		//return c_white;
 	}
 	

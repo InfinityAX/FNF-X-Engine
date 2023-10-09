@@ -79,7 +79,7 @@ function set_default_options()
 
 
 // Set the flashing option based on the value recived in rm_flashing_state
-function set_option(_val)
+function set_option_flashing(_val)
 {
 	flashing_lights = _val;
 	
