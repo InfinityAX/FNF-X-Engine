@@ -54,102 +54,112 @@ function scp_StringChecker_Grab(loadedString)
 
 
 // Converts string to colour value.
-/*function scp_StringChecker_ColourConvert(loadedString)
+function string_parce_colour(_loaded_string)
 {
-	if (string_lower(loadedString) == "aqua")
+	var _return_col = c_white;
+	
+	insert_log("Identifying colour from string...");
+	
+	_loaded_string = string_lower(_loaded_string);
+	
+	if (_loaded_string == "aqua")
 	{
-		return c_aqua;
+		_return_col = c_aqua;
 	}
-	else if (string_lower(loadedString) == "black")
+	else if (_loaded_string == "black")
 	{
-		return c_black;
+		_return_col = c_black;
 	}
-	else if (string_lower(loadedString) == "blue")
+	else if (_loaded_string == "blue")
 	{
-		return c_blue;
+		_return_col = c_blue;
 	}
-	else if (string_lower(loadedString) == "dark gray")
+	else if (_loaded_string == "dark gray")
 	{
-		return c_dkgray;
+		_return_col = c_dkgray;
 	}
-	else if (string_lower(loadedString) == "dark grey")
+	else if (_loaded_string == "dark grey")
 	{
-		return c_dkgrey;
+		_return_col = c_dkgrey;
 	}
-	else if (string_lower(loadedString) == "pink")
+	else if (_loaded_string == "pink")
 	{
-		return c_fuchsia;
+		_return_col = c_fuchsia;
 	}
-	else if (string_lower(loadedString) == "gray")
+	else if (_loaded_string == "gray")
 	{
-		return c_gray;
+		_return_col = c_gray;
 	}
-	else if (string_lower(loadedString) == "green")
+	else if (_loaded_string == "green")
 	{
-		return c_green;
+		_return_col = c_green;
 	}
-	else if (string_lower(loadedString) == "grey")
+	else if (_loaded_string == "grey")
 	{
-		return c_grey;
+		_return_col = c_grey;
 	}
-	else if (string_lower(loadedString) == "lime")
+	else if (_loaded_string == "lime")
 	{
-		return c_lime;
+		_return_col = c_lime;
 	}
-	else if (string_lower(loadedString) == "light gray")
+	else if (_loaded_string == "light gray")
 	{
-		return c_ltgray;
+		_return_col = c_ltgray;
 	}
-	else if (string_lower(loadedString) == "light grey")
+	else if (_loaded_string == "light grey")
 	{
-		return c_ltgrey;
+		_return_col = c_ltgrey;
 	}
-	else if (string_lower(loadedString) == "maroon")
+	else if (_loaded_string == "maroon")
 	{
-		return c_maroon;
+		_return_col = c_maroon;
 	}
-	else if (string_lower(loadedString) == "navy")
+	else if (_loaded_string == "navy")
 	{
-		return c_navy;
+		_return_col = c_navy;
 	}
-	else if (string_lower(loadedString) == "olive")
+	else if (_loaded_string == "olive")
 	{
-		return c_olive;
+		_return_col = c_olive;
 	}
-	else if (string_lower(loadedString) == "orange")
+	else if (_loaded_string == "orange")
 	{
-		return c_orange;
+		_return_col = c_orange;
 	}
-	else if (string_lower(loadedString) == "purple")
+	else if (_loaded_string == "purple")
 	{
-		return c_purple;
+		_return_col = c_purple;
 	}
-	else if (string_lower(loadedString) == "red")
+	else if (_loaded_string == "red")
 	{
-		return c_red;
+		_return_col = c_red;
 	}
-	else if (string_lower(loadedString) == "silver")
+	else if (_loaded_string == "silver")
 	{
-		return c_silver;
+		_return_col = c_silver;
 	}
-	else if (string_lower(loadedString) == "teal")
+	else if (_loaded_string == "teal")
 	{
-		return c_teal;
+		_return_col = c_teal;
 	}
-	else if (string_lower(loadedString) == "yellow")
+	else if (_loaded_string == "yellow")
 	{
-		return c_yellow;
+		_return_col = c_yellow;
 	}
-	else if (string_lower(loadedString) == "white")
+	else if (_loaded_string == "white")
 	{
-		return c_white;
+		//return c_white;
 	}
 	else
 	{
-		scp_GameLoggerInsertLog("ERROR: >>>" + loadedString + "<<< is not regonised colour. Regonised colours are:\naqua, black, blue, dark gray, dark grey, gray, green, grey, light gray, light grey, lime, maroon, navy, olive, orange, pink, purple, red, silver, teal, white, yellow\nAssuming white...");
-		return c_white;
+		insert_log(_loaded_string + " IS NOT A RECOGNIZED COLOUR. Defaulting to white...");
+		//return c_white;
 	}
-}*/
+	
+	insert_log("Colour identification complete.");
+	
+	return _return_col;
+}
 
 
 // Converts string to real.

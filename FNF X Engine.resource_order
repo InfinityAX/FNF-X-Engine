@@ -32,7 +32,7 @@
     {"name":"sfx_DefaultMenuScroll","order":2,"path":"sounds/sfx_DefaultMenuScroll/sfx_DefaultMenuScroll.yy",},
     {"name":"s_Options","order":4,"path":"scripts/s_Options/s_Options.yy",},
     {"name":"obj_fps_counter","order":2,"path":"objects/obj_fps_counter/obj_fps_counter.yy",},
-    {"name":"s_StringChecker","order":3,"path":"scripts/s_StringChecker/s_StringChecker.yy",},
+    {"name":"s_StringParcer","order":3,"path":"scripts/s_StringParcer/s_StringParcer.yy",},
     {"name":"rm_flashing_state","order":1,"path":"rooms/rm_flashing_state/rm_flashing_state.yy",},
     {"name":"sfx_DefaultGameOverEnd","order":2,"path":"sounds/sfx_DefaultGameOverEnd/sfx_DefaultGameOverEnd.yy",},
     {"name":"vc_bopeebo","order":1,"path":"sounds/vc_bopeebo/vc_bopeebo.yy",},

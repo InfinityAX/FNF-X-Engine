@@ -8,7 +8,7 @@ if (!variable_global_exists("game_started"))
 	
 	auto_window_control();
 	load_options();
-	load_default_fonts();
+	load_default_font_file();
 	
 	if(fps_counter_d != 0)
 	{

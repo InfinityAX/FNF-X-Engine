@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "s_StringChecker",
+  "name": "s_StringParcer",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

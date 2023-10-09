@@ -5,6 +5,7 @@ globalvar flashing_lights;
 globalvar fps_counter_d;
 
 
+// Load from the options file if possible
 function load_options()
 {
 	insert_log("Start of options loading.");
