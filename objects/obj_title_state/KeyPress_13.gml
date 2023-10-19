@@ -1,0 +1,1 @@
+insert_log("Key enter press detected.");

@@ -4,24 +4,24 @@ globalvar default_ft_map_str;
 
 
 // Load the default font from file
-function load_default_font_file()
+function load_font_file(_type)
 {
-	var _font_file_p = "DefaultFonts/d_fonts.txt";
+	var _font_file_p = "Fonts/fonts.txt";
 	
 	insert_log("Loading default fonts from file...");
 	
 	if (!file_exists(_font_file_p))
 	{
-		insert_log("d_fonts.txt not found. Loading internal defaults...");
+		insert_log("fonts.txt not found. Loading internal defaults...");
 		load_default_fonts(1);
 	}
 	else
 	{
-		var _ofile = file_text_open_read(_font_file_p);
+		ini_open(_font_file_p);
 	
-		insert_log("d_fonts.txt found, reading data...");
+		insert_log("fonts.txt found, reading data...");
 	
-		var _font_name = file_text_read_string(_ofile);
+		var _font_name = ini_read_string("SYSTEM", "", "");
 	
 		if (!file_exists("DefaultFonts/" + _font_name))
 		{

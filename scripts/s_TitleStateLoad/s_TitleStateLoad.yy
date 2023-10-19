@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "s_FontLoader",
+  "name": "s_TitleStateLoad",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

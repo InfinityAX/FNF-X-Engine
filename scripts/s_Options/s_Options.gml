@@ -10,15 +10,15 @@ function load_options()
 {
 	insert_log("Start of options loading.");
 	
-	if (file_exists("gameOPTIONS"))
+	if (file_exists("gameOPTIONS.txt"))
 	{
-		insert_log("gameOPTIONS found, reading file...");
+		insert_log("gameOPTIONS.txt found, reading file...");
 		
-		ini_open("gameOPTIONS");
+		ini_open("gameOPTIONS.txt");
 		
 		if (!ini_section_exists("GRAPHICS") or !ini_section_exists("GAME UI"))
 		{
-			insert_log("gameOPTIONS->GRAPHICS|GAME UI not found, loading default options...");
+			insert_log("gameOPTIONS.txt->GRAPHICS|GAME UI not found, loading default options...");
 			
 			set_default_options();
 			ini_write_real("GRAPHICS", "QUALITY", graphics_quality);
@@ -29,7 +29,7 @@ function load_options()
 		{
 			if (!ini_key_exists("GRAPHICS", "QUALITY") or !ini_key_exists("GRAPHICS", "FLASHING") or !ini_key_exists("GAME UI", "FPS COUNTER"))
 			{
-				insert_log("Item(s) in gameOPTIONS->GRAPHICS|GAME UI not found, loading default options...");
+				insert_log("Item(s) in gameOPTIONS.txt->GRAPHICS|GAME UI not found, loading default options...");
 				
 				set_default_options();
 				ini_write_real("GRAPHICS", "QUALITY", graphics_quality);
@@ -48,9 +48,9 @@ function load_options()
 	}
 	else
 	{
-		insert_log("gameOPTIONS not found, creating new file and loading default options...");
+		insert_log("gameOPTIONS.txt not found, creating new file and loading default options...");
 		
-		ini_open("gameOPTIONS");
+		ini_open("gameOPTIONS.txt");
 		set_default_options();
 		ini_write_real("GRAPHICS", "QUALITY", graphics_quality);
 		ini_write_real("GRAPHICS", "FLASHING", flashing_lights);
@@ -92,7 +92,7 @@ function set_option_flashing(_val)
 		insert_log("Flashing lights set to on/undetermined.");
 	}
 	
-	ini_open("gameOPTIONS");
+	ini_open("gameOPTIONS.txt");
 	ini_write_real("GRAPHICS", "FLASHING", _val);
 	ini_close();
 	
