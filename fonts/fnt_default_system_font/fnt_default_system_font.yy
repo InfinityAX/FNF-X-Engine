@@ -119,8 +119,8 @@
   "lineHeight": 37,
   "maintainGms1Font": false,
   "parent": {
-    "name": "Fonts",
-    "path": "folders/Fonts.yy",
+    "name": "DefaultFonts",
+    "path": "folders/DefaultFonts.yy",
   },
   "pointRounding": 0,
   "ranges": [

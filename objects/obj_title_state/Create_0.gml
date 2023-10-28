@@ -1,4 +1,6 @@
-if (!variable_global_exists("game_started"))
+room_goto(rm_flashing_state);
+
+/*if (!variable_global_exists("game_started"))
 {
 	create_log_file();
 	game_start_i();
@@ -47,4 +49,4 @@ if (!variable_global_exists("title_seen"))
 	title_seen_i();
 }
 
-insert_log("rm_title_state loaded.");
+insert_log("rm_title_state loaded.");*/

@@ -1,6 +1,6 @@
-if (alarm_get(0) >= 0)
+if (enter_pressed)
 {
-	if (dalpha == 1)
+	if (dalpha >= 1)
 	{
 		dalpha = 0;
 	}
@@ -13,4 +13,3 @@ else
 {
 	
 }
-	

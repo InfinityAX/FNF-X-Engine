@@ -6,3 +6,21 @@ function load_sound(_sound_name)
 	
 	//audio_play_sound()
 }
+
+
+// Gets the default sounds
+function load_default_sound(_val)
+{
+	if (_val <= 0)
+	{
+		insert_log("Default internal confirm menu sound loaded.");
+		return snd_sfx_confirm_menu;
+	}
+	else if (_val == 1)
+	{
+		insert_log("Default internal cancel menu sound loaded.");
+		return snd_sfx_cancel_menu;
+	}
+	
+	return;
+}

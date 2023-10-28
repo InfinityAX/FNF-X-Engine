@@ -1,1 +1,0 @@
-insert_log("Flash text object created.");

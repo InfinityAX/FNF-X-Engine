@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "s_FontControl",
+  "name": "s_flashimgstate_ini_reader",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "FlashingState",
+    "path": "folders/FlashingState.yy",
   },
 }

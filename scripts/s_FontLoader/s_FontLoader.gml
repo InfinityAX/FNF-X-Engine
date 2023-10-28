@@ -4,7 +4,7 @@ globalvar default_ft_map_str;
 
 
 // Load the default font from file
-function load_font_file(_type)
+function load_font_file(_f_name)
 {
 	var _font_file_p = "Fonts/fonts.txt";
 	
@@ -167,19 +167,18 @@ function load_default_fonts(_val)
 	
 	font_add_enable_aa(true);
 	
-	if (_val <= 1)
+	if (_val <= 0)
 	{
-		default_system_font = [fnt_default_system_font, 1, 1, c_white];
 		insert_log("Default internal system font loaded.");
+		return [fnt_default_system_font, 1, 1, c_white];
 	}
 	else
 	{
 		default_main_font = [font_add_sprite_ext(spr_default_main_font, default_ft_map_str, true, 0), 1, 1, c_white];
 		insert_log("Default internal main font loaded.");
+		return;
 		//insert_log("spr_defMainFont successfully added as default main font.\nFont map string: " + default_ft_map_str + "\nProp font: True\nFont spacing: 0\nFont X scale: 1\nFont Y scale: 1\nFont colour: White");
 	}
-	
-	return;
 	
 	/*if (font_add_get_enable_aa())
 	{
