@@ -12,8 +12,9 @@
   "defaultScriptType": 1,
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"DefaultFonts","folderPath":"folders/DefaultFonts.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"FlashingState","folderPath":"folders/FlashingState.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
@@ -29,7 +30,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rap Battle","folderPath":"folders/Sounds/Rap Battle.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Songs","folderPath":"folders/Sounds/Songs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"bopeebo","folderPath":"folders/Sounds/Songs/bopeebo.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"FlashingState","folderPath":"folders/FlashingState.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TitleState","folderPath":"folders/TitleState.yy",},
   ],
   "IncludedFiles": [
@@ -75,7 +75,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"s_flashimgstate_ini_reader","path":"scripts/s_flashimgstate_ini_reader/s_flashimgstate_ini_reader.yy",},},

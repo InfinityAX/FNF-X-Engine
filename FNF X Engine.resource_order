@@ -1,8 +1,9 @@
 {
   "FolderOrderSettings": [
     {"name":"Animation Curves","order":12,"path":"folders/Animation Curves.yy",},
-    {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"DefaultFonts","order":7,"path":"folders/DefaultFonts.yy",},
+    {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
+    {"name":"FlashingState","order":28,"path":"folders/FlashingState.yy",},
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
@@ -18,7 +19,6 @@
     {"name":"Rap Battle","order":7,"path":"folders/Sounds/Rap Battle.yy",},
     {"name":"Songs","order":8,"path":"folders/Sounds/Songs.yy",},
     {"name":"bopeebo","order":1,"path":"folders/Sounds/Songs/bopeebo.yy",},
-    {"name":"FlashingState","order":28,"path":"folders/FlashingState.yy",},
     {"name":"TitleState","order":29,"path":"folders/TitleState.yy",},
   ],
   "ResourceOrderSettings": [
