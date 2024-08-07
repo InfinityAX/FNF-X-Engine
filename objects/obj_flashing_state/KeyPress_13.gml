@@ -1,8 +1,8 @@
-insert_log("ENTER key press detected.");
+//insert_log("ENTER key press detected.");
 
 //set_option_flashing(1);
 
-if (yes_menu_sound == "")
+/*if (yes_menu_sound == "")
 {
 	insert_log("Flash text object deleted.");
 	instance_destroy(self);
@@ -11,7 +11,10 @@ else
 {
 	enter_pressed = true;
 	audio_play_sound(yes_menu_sound, 0, false);
-}
+}*/
+
+enter_pressed = true;
+
 //audio_play_sound(snd_sfx_default_menu_yes, 0, false);
 
 //insert_log("Playing sound \"snd_sfx_default_menu_yes\"...");

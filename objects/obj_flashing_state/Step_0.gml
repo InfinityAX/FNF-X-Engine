@@ -1,6 +1,13 @@
 if (enter_pressed)
 {
-	if (dalpha >= 1)
+	timer -= (1*delta_multiplyer*target_flashing_speed);
+	
+	if (timer < -1)
+	{
+		timer = 1;
+	}
+	
+	if (timer >= 0)
 	{
 		dalpha = 0;
 	}

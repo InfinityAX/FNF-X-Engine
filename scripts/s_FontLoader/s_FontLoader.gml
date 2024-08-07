@@ -170,11 +170,11 @@ function load_default_fonts(_val)
 	if (_val <= 0)
 	{
 		insert_log("Default internal system font loaded.");
-		return [fnt_default_system_font, 1, 1, c_white];
+		return [fnt_debug, 1, 1, c_white];
 	}
 	else
 	{
-		default_main_font = [font_add_sprite_ext(spr_default_main_font, default_ft_map_str, true, 0), 1, 1, c_white];
+		default_main_font = [font_add_sprite_ext(spr_menu, default_ft_map_str, true, 0), 1, 1, c_white];
 		insert_log("Default internal main font loaded.");
 		return;
 		//insert_log("spr_defMainFont successfully added as default main font.\nFont map string: " + default_ft_map_str + "\nProp font: True\nFont spacing: 0\nFont X scale: 1\nFont Y scale: 1\nFont colour: White");
