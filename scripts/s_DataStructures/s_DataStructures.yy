@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"s_GameState",
+  "%Name":"s_DataStructures",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"s_GameState",
+  "name":"s_DataStructures",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

@@ -1,3 +1,4 @@
+game_start();
 /*insert_log("Loading rm_flashing_state...");
 
 var _flashing_state_p ="TitleState/flashstate.txt";

@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"s_GameLogger",
+  "%Name":"s_GameOperations",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"s_GameLogger",
+  "name":"s_GameOperations",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
